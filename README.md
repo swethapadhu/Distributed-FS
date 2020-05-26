@@ -1,5 +1,9 @@
-distributedFS.py is the module to create a distributed file system
+### DISTRIBUTED FILE SYSTEM
 
-dataserver.py module was used for 4 data servers. It contains functions for fault tolerance
+The goal of this project is to build a fault tolerant remote file system which stores its data in multiple remote servers.
 
-metaserver.py module was used to store the metadata of the files created.
+distributedFS.py - creates the distributed file system
+
+dataserver.py - creates the data servers and contains functions for fault tolerance
+
+metaserver.py - creates metaserver to store meta-data of all the files that were created
